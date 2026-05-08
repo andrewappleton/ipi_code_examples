@@ -1,0 +1,72 @@
+[
+  {
+    "name": "billing",
+    "acw_timeout_ms": 30000,
+    "auto_answer_only": true,
+    "enable_transcription": true,
+    "enable_audio_monitoring": false,
+    "enable_manual_assignment": false,
+    "media_settings_call": {
+      "service_level_percentage": 0.01,
+      "service_level_duration_ms": 1002,  
+      "enable_auto_answer": true,
+      "alerting_timeout_sec": 10
+    }
+  },
+  {
+    "name": "sales",
+    "acw_timeout_ms": 20000,
+    "auto_answer_only": true,
+    "enable_transcription": false,
+    "enable_audio_monitoring": true,
+    "enable_manual_assignment": false,
+    "media_settings_call": {
+      "service_level_percentage": 0.05,
+      "service_level_duration_ms": 1200,  
+      "enable_auto_answer": false,
+      "alerting_timeout_sec": 15
+    }
+  },
+  {
+    "name": "support",
+    "acw_timeout_ms": 20000,
+    "auto_answer_only": false,
+    "enable_transcription": true,
+    "enable_audio_monitoring": false,
+    "enable_manual_assignment": true,
+    "media_settings_call": {
+      "service_level_percentage": 0.80,
+      "service_level_duration_ms": 2112,  
+      "enable_auto_answer": true,
+      "alerting_timeout_sec": 24      
+    }
+  },
+  {
+    "name": "vip_support",
+    "acw_timeout_ms": 45000,
+    "auto_answer_only": true,
+    "enable_transcription": true,
+    "enable_audio_monitoring": true,
+    "enable_manual_assignment": false,
+    "media_settings_call": {
+      "service_level_percentage": 0.06,
+      "service_level_duration_ms": 2001,  
+      "enable_auto_answer": false,
+      "alerting_timeout_sec": 15
+    }
+  },
+  {
+    "name": "onboarding",
+    "acw_timeout_ms": 25000,
+    "auto_answer_only": false,
+    "enable_transcription": false,
+    "enable_audio_monitoring": true,
+    "enable_manual_assignment": true,
+    "media_settings_call": {
+      "service_level_percentage": 0.05,
+      "service_level_duration_ms": 1999,  
+      "enable_auto_answer": true,
+      "alerting_timeout_sec": 12
+    }
+  }
+]
